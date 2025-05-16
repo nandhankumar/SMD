@@ -1,10 +1,6 @@
 # Ship Maintenance Dashboard
 
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite.
-
-A comprehensive web application for managing ship maintenance operations, built with React, TypeScript, and Vite.
+# HTML + CSS + JAVASCRIPT
 
 ## Features
 
@@ -35,27 +31,8 @@ A comprehensive web application for managing ship maintenance operations, built 
   - Mark as read/dismiss functionality
 
 - **Dashboard**
-  - Key performance indicators (KPIs)
+  - Key performance indicators 
   - Recent jobs overview
-
-## Technologies Used
-
-- **Frontend**
-  - React 
-  - TypeScript
-  - Vite 
-  - CSS Modules
-  - LocalStorage (for data persistence)
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/nandhankumar/ShipMaintenanceDashboard
-   npx create-react-app entnt-ship-maintenance --template typescript
-   cd ship-maintenance-dashboard
-   npm install
-   npm run dev
    
 
 
