@@ -10,7 +10,6 @@
 <body>
     
     <div id="app">
-        <!-- Login Page (shown by default) -->
         <div id="login-page" class="container">
             <div class="card" style="max-width: 400px; margin: 50px auto;">
                 <h1 class="text-center mb-20">Ship Maintenance Dashboard</h1>
@@ -31,7 +30,6 @@
             </div>
         </div>
         
-        <!-- Main App (hidden by default) -->
         <div id="main-app" class="hidden">
             <header>
                 <div class="logo">ENTNT Ship Maintenance</div>
@@ -52,10 +50,8 @@
             </nav>
             
             <div class="container">
-                <!-- Dashboard Page -->
                 <div id="dashboard-page" class="page">
                     <h2 class="mb-20">Dashboard</h2>
-                    
                     <div class="grid mb-20">
                         <div class="kpi-card" style="background-color: #3498db;">
                             <h3>Total Ships</h3>
@@ -74,7 +70,6 @@
                             <p id="jobs-completed">0</p>
                         </div>
                     </div>
-                    
                     <div class="card">
                         <h3 class="mb-20">Recent Maintenance Jobs</h3>
                         <table id="recent-jobs-table">
@@ -91,9 +86,7 @@
                         </table>
                     </div>
                 </div>
-                
-                <!-- Ships Page -->
-                <div id="ships-page" class="page hidden">
+                            <div id="ships-page" class="page hidden">
                     <div class="flex-between mb-20">
                         <h2>Ships Management</h2>
                         <button id="add-ship-btn" class="btn btn-primary">Add New Ship</button>
@@ -115,8 +108,7 @@
                     </div>
                 </div>
                 
-                <!-- Ship Detail Page -->
-                <div id="ship-detail-page" class="page hidden">
+                             <div id="ship-detail-page" class="page hidden">
                     <button id="back-to-ships-btn" class="btn btn-secondary mb-20">Back to Ships</button>
                     <h2 id="ship-detail-name" class="mb-20"></h2>
                     
@@ -167,9 +159,7 @@
                         </table>
                     </div>
                 </div>
-                
-                <!-- Jobs Page -->
-                <div id="jobs-page" class="page hidden">
+                            <div id="jobs-page" class="page hidden">
                     <div class="flex-between mb-20">
                         <h2>Maintenance Jobs</h2>
                         <button id="add-job-btn" class="btn btn-primary">Create New Job</button>
@@ -194,9 +184,7 @@
                         </table>
                     </div>
                 </div>
-                
-                <!-- Calendar Page -->
-                <div id="calendar-page" class="page hidden">
+                                <div id="calendar-page" class="page hidden">
                     <h2 class="mb-20">Maintenance Calendar</h2>
                     
                     <div class="card">
@@ -221,10 +209,7 @@
                             <div id="calendar-grid" class="calendar-grid"></div>
                         </div>
                     </div>
-                </div>
-                
-                <!-- Notifications Page -->
-                <div id="notifications-page" class="page hidden">
+                                </div>         <div id="notifications-page" class="page hidden">
                     <h2 class="mb-20">Notifications</h2>
                     
                     <div class="card">
@@ -233,8 +218,6 @@
                 </div>
             </div>
         </div>
-        
-        <!-- Add Ship Modal -->
         <div id="add-ship-modal" class="modal hidden">
             <div class="modal-content">
                 <div class="modal-header">
@@ -269,8 +252,6 @@
                 </form>
             </div>
         </div>
-        
-        <!-- Edit Ship Modal -->
         <div id="edit-ship-modal" class="modal hidden">
             <div class="modal-content">
                 <div class="modal-header">
@@ -306,8 +287,6 @@
                 </form>
             </div>
         </div>
-        
-        <!-- Add Component Modal -->
         <div id="add-component-modal" class="modal hidden">
             <div class="modal-content">
                 <div class="modal-header">
@@ -339,8 +318,6 @@
                 </form>
             </div>
         </div>
-        
-        <!-- Add Job Modal -->
         <div id="add-job-modal" class="modal hidden">
             <div class="modal-content">
                 <div class="modal-header">
@@ -397,10 +374,7 @@
                     </div>
                 </form>
             </div>
-        </div>
-        
-        <!-- Update Job Status Modal -->
-        <div id="update-job-modal" class="modal hidden">
+        </div>        <div id="update-job-modal" class="modal hidden">
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title">Update Job Status</h3>
@@ -424,9 +398,7 @@
                 </form>
             </div>
         </div>
-        
-        <!-- Day Jobs Modal -->
-        <div id="day-jobs-modal" class="modal hidden">
+         <div id="day-jobs-modal" class="modal hidden">
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title" id="day-jobs-title">Jobs on May 5, 2025</h3>
